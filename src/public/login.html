@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TSM Login</title>
+  <link href="/public/style.css" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/public/logo.svg" />
+</head>
+
+<body class="bg-gray-900 flex justify-center items-center h-screen">
+  <div class="w-full max-w-xs">
+    <form action="/login" method="post" class="bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <input type="password" name="password"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-300 bg-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          placeholder="Enter password" required />
+      </div>
+      <div class="flex items-center justify-center">
+        <input type="submit" value="Login"
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline cursor-pointer" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
