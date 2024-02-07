@@ -27,7 +27,7 @@ TSM expects a dedicated server exe and a singular save folder / file location. D
 
 #### Step 4: Running TSM and Accessing the Web UI
 1. Open your terminal and navigate to your TSM folder.
-2. Run `./tsm`. TSM should start your game server and the web UI. TSM will try and keep the game server tied to itself, starting the game server when it starts, and stopping the game server when it stops.
+2. Run the `./bin-linux-{your_arch}`. TSM should start your game server and the web UI. TSM will try and keep the game server tied to itself, starting the game server when it starts, and stopping the game server when it stops.
 3. TSM will display the address of the web UI in the terminal (e.g., `http://localhost:80`). Open this address in a web browser to manage your server and backups.
 
 #### Privileged ports!
